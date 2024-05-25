@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-from movie_repository.util.logger import logger
+from util.logger import logger
 from .warmup import WarmupHandler, Status, generate_key
 
 

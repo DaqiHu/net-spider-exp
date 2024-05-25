@@ -8,8 +8,8 @@ import aiohttp
 from lxml import etree
 from motor.motor_asyncio import AsyncIOMotorCollection
 
-from movie_repository.util.logger import logger
-from movie_repository.entity import MovieEntity
+from util.logger import logger
+from entity import MovieEntity
 from .init_config import write_in
 from .warmup import WarmupHandler, Status, generate_key
 

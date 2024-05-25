@@ -11,9 +11,9 @@ from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorCollection
 from . import fetcher
 from . import init_config
 from .warmup import WarmupHandler
-from movie_repository.util.logger import logger
-from movie_repository.entity.entity_warmup import WarmupData
-from movie_repository.entity.entity_warmup import mask
+from util.logger import logger
+from entity.entity_warmup import WarmupData
+from entity.entity_warmup import mask
 
 CLIENT = AsyncIOMotorClient("mongodb://localhost:27017/")  # 端
 DB = CLIENT["movie_repository"]  # 库
