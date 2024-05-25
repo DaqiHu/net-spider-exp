@@ -1,9 +1,9 @@
 # main.py
 from fastapi import FastAPI
 
-from util import logger
-from infra.init_app import init_app
-from router.fetch_router import router as fetch_router
+from .util import logger
+from .infra.init_app import init_app
+from .router.fetch_router import router as fetch_router
 
 # 启动FastAPI应用
 app = FastAPI()
